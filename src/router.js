@@ -15,6 +15,11 @@ const routes = [
         path : "/tutorials/:id",
         name : "tutorial-details",
         component : ()=> import("./components/TutorialDetail")
+    },
+    {
+        path: "/login",
+        name : "login-validation",
+        component : ()=> import("./components/LoginValidation")
     }
 ];
 const router = createRouter({
